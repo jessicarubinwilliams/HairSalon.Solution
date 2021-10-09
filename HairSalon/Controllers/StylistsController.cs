@@ -1,16 +1,16 @@
-using Inventory.Models;
+using HairSalon.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Inventory.Controllers
+namespace HairSalon.Controllers
 {
-  public class CollectionsController : Controller
+  public class StylistsController : Controller
   {
-    private readonly InventoryContext _db;
+    private readonly HairSalonContext _db;
 
-    public CollectionsController(InventoryContext db)
+    public StylistsController(HairSalonContext db)
     {
       _db = db;
     }
@@ -21,3 +21,4 @@ namespace Inventory.Controllers
       return View(model);
     }
   }
+}
