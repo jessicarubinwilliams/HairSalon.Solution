@@ -27,5 +27,14 @@ namespace HairSalon.Controllers
       ViewBag.Stylists = _db.Stylists.ToList();
       return View(); 
     }
+
+    [HttpPost]
+    public ActionResult Create(Client client)
+    {
+      _db.Clients.Add(client);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
   }
 }
