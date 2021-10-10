@@ -68,7 +68,7 @@ This web-based application allows a the fictional Claire of fictional Eau Calire
 
 ## Known Bugs <a id="bugs"></a>
 
-* No known bugs.
+* The stylist index has an unhandled exception. There is a unknown column in the field list that is not yet resolved.
 
 ## License <a id="license"></a>
 *[MIT](https://choosealicense.com/licenses/mit/)*
