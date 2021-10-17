@@ -28,7 +28,7 @@ CREATE TABLE `clients` (
   `ClientId` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(255) DEFAULT NULL,
   `CellPhoneNum` varchar(255) DEFAULT NULL,
-  `StylistId` varchar(255) DEFAULT '0',
+  `StylistId` int(255) DEFAULT '0',
   `Notes` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ClientId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
