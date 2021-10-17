@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `hair_salon` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
-USE `hair_salon`;
+CREATE DATABASE  IF NOT EXISTS `jessica_williams` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
+USE `jessica_williams`;
 -- MySQL dump 10.13  Distrib 8.0.15, for macos10.14 (x86_64)
 --
--- Host: localhost    Database: hair_salon
+-- Host: localhost    Database: jessica_williams
 -- ------------------------------------------------------
 -- Server version	8.0.15
 
