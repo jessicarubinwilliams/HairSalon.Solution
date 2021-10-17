@@ -6,7 +6,7 @@ namespace HairSalon.Models
     {
         public Stylist()
         {
-            this.Stylists = new HashSet<Stylist>();
+            this.Clients = new HashSet<Client>();
         }
 
         public int StylistId { get; set; }
@@ -15,6 +15,6 @@ namespace HairSalon.Models
         public string Competencies { get; set; }
         public string Specialties { get; set; }
         public string Notes { get; set; }
-        public virtual ICollection<Stylist> Stylists { get; set; }
+        public virtual ICollection<Client> Clients { get; set; }
     }
 }
