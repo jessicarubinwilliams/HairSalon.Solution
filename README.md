@@ -27,7 +27,7 @@
 
 ## Description <a id="description"></a>
 
-This web-based application allows a the fictional Claire of fictional Eau Calire's Salon to track the business's stylists and clients as well as assign the clients to a specific stylist. Data is stored in a SQL database.
+This web-based application allows the fictional Claire of fictional Eau Calire's Salon to track the business's stylists and clients as well as assign the clients to a specific stylist. Data is stored in a SQL database.
 
 ## Setup/Installation Requirements <a id="setup"></a>
 
@@ -68,7 +68,7 @@ This web-based application allows a the fictional Claire of fictional Eau Calire
 
 ## Known Bugs <a id="bugs"></a>
 
-* The stylist index has an unhandled exception. There is a unknown column in the field list that is not yet resolved.
+* No known bugs.
 
 ## License <a id="license"></a>
 *[MIT](https://choosealicense.com/licenses/mit/)*
